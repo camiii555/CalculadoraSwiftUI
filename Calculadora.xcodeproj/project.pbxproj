@@ -13,6 +13,12 @@
 		D269491A279F841C0093BFCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2694919279F841C0093BFCE /* Preview Assets.xcassets */; };
 		D269491C279F841C0093BFCE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D269491B279F841C0093BFCE /* Persistence.swift */; };
 		D269491F279F841C0093BFCE /* Calculadora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D269491D279F841C0093BFCE /* Calculadora.xcdatamodeld */; };
+		D269492A279F85B10093BFCE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694929279F85B10093BFCE /* ViewModel.swift */; };
+		D2694930279F8A420093BFCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D269492F279F8A420093BFCE /* HomeView.swift */; };
+		D2694932279FAFA70093BFCE /* PropertyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694931279FAFA70093BFCE /* PropertyButtons.swift */; };
+		D2694934279FB1EE0093BFCE /* PropertyButtonsOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */; };
+		D2694936279FB47B0093BFCE /* PropertyButtonsNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */; };
+		D26C3F3B279FB8E40070AE40 /* PropertyButtonsNumericCero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		D2694919279F841C0093BFCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D269491B279F841C0093BFCE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D269491E279F841C0093BFCE /* Calculadora.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculadora.xcdatamodel; sourceTree = "<group>"; };
+		D2694929279F85B10093BFCE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D269492F279F8A420093BFCE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2694931279FAFA70093BFCE /* PropertyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtons.swift; sourceTree = "<group>"; };
+		D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsOperators.swift; sourceTree = "<group>"; };
+		D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsNumeric.swift; sourceTree = "<group>"; };
+		D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsNumericCero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,13 @@
 		D2694911279F84180093BFCE /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
+				D2694928279F85710093BFCE /* View */,
+				D2694927279F85600093BFCE /* ViewModel */,
+				D2694926279F85540093BFCE /* Model */,
 				D2694912279F84180093BFCE /* CalculadoraApp.swift */,
 				D2694914279F84180093BFCE /* ContentView.swift */,
 				D2694916279F841C0093BFCE /* Assets.xcassets */,
 				D269491B279F841C0093BFCE /* Persistence.swift */,
-				D269491D279F841C0093BFCE /* Calculadora.xcdatamodeld */,
 				D2694918279F841C0093BFCE /* Preview Content */,
 			);
 			path = Calculadora;
@@ -71,6 +85,34 @@
 				D2694919279F841C0093BFCE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2694926279F85540093BFCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D269491D279F841C0093BFCE /* Calculadora.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2694927279F85600093BFCE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2694929279F85B10093BFCE /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2694928279F85710093BFCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D269492F279F8A420093BFCE /* HomeView.swift */,
+				D2694931279FAFA70093BFCE /* PropertyButtons.swift */,
+				D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */,
+				D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */,
+				D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2694932279FAFA70093BFCE /* PropertyButtons.swift in Sources */,
+				D269492A279F85B10093BFCE /* ViewModel.swift in Sources */,
+				D2694936279FB47B0093BFCE /* PropertyButtonsNumeric.swift in Sources */,
 				D269491C279F841C0093BFCE /* Persistence.swift in Sources */,
 				D2694915279F84180093BFCE /* ContentView.swift in Sources */,
+				D2694934279FB1EE0093BFCE /* PropertyButtonsOperators.swift in Sources */,
+				D2694930279F8A420093BFCE /* HomeView.swift in Sources */,
 				D2694913279F84180093BFCE /* CalculadoraApp.swift in Sources */,
+				D26C3F3B279FB8E40070AE40 /* PropertyButtonsNumericCero.swift in Sources */,
 				D269491F279F841C0093BFCE /* Calculadora.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
