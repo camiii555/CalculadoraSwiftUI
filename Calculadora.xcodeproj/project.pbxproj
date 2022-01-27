@@ -19,6 +19,7 @@
 		D2694934279FB1EE0093BFCE /* PropertyButtonsOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */; };
 		D2694936279FB47B0093BFCE /* PropertyButtonsNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */; };
 		D26C3F3B279FB8E40070AE40 /* PropertyButtonsNumericCero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */; };
+		D26C3F3D279FD5A20070AE40 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C3F3C279FD5A20070AE40 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsOperators.swift; sourceTree = "<group>"; };
 		D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsNumeric.swift; sourceTree = "<group>"; };
 		D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyButtonsNumericCero.swift; sourceTree = "<group>"; };
+		D26C3F3C279FD5A20070AE40 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				D2694933279FB1EE0093BFCE /* PropertyButtonsOperators.swift */,
 				D2694935279FB47B0093BFCE /* PropertyButtonsNumeric.swift */,
 				D26C3F3A279FB8E40070AE40 /* PropertyButtonsNumericCero.swift */,
+				D26C3F3C279FD5A20070AE40 /* Results.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				D2694913279F84180093BFCE /* CalculadoraApp.swift in Sources */,
 				D26C3F3B279FB8E40070AE40 /* PropertyButtonsNumericCero.swift in Sources */,
 				D269491F279F841C0093BFCE /* Calculadora.xcdatamodeld in Sources */,
+				D26C3F3D279FD5A20070AE40 /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
